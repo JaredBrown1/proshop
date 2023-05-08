@@ -70,3 +70,5 @@ const orderSchema = mongoose.Schema({
 })
 
 const order = mongoose.model('Order', orderSchema)
+
+export default order;
